@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Wave from '@/components/Wave'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Wave from '@/components/Wave';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -12,4 +12,4 @@ export default new Router({
       component: Wave
     }
   ]
-})
+});

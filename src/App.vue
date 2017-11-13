@@ -7,12 +7,18 @@
 <script>
 export default {
   name: 'app'
-}
+};
 </script>
 
 <style>
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
-  background-color: #1abc9c;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -20,6 +26,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-  margin-top: 60px;
+  width:100%;
+  height: 100%;
 }
 </style>
